@@ -1,50 +1,95 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Projeto – Tela de Login (React Native + Expo)
 
-## Get started
+## Integrantes
 
-1. Install dependencies
+- **Vinicius Gardim** – RM: 556013  
+- **Carlos Eduardo de Queiroz Menezes** – RM: 99849  
+- **Leonardo Correia Moura** – RM: 550413  
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+# Descrição do Projeto
 
-   ```bash
-   npx expo start
-   ```
+Este projeto consiste no desenvolvimento de uma **tela de login para aplicativo mobile**, utilizando **React Native com Expo**.
 
-In the output, you'll find options to open the app in a
+A proposta da atividade foi construir uma interface simples de autenticação seguindo os padrões apresentados em aula. A tela desenvolvida simula o acesso de um usuário a um aplicativo, permitindo inserir credenciais e acessar o sistema.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Durante o desenvolvimento foram utilizados componentes nativos do React Native e também componentes personalizados para organização do código e reutilização de elementos da interface.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+O foco do projeto está no **desenvolvimento da interface mobile**, não sendo implementada autenticação real ou conexão com backend.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+# Ideia Principal
 
-```bash
-npm run reset-project
-```
+A ideia principal do projeto foi criar uma **tela inicial de login**, semelhante às utilizadas em aplicativos reais.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+A interface possui os seguintes elementos:
 
-## Learn more
+- Logo do aplicativo
+- Campo para inserir RM
+- Campo para inserir senha
+- Opção para manter usuário conectado
+- Link para recuperação de senha
+- Botão principal de login
+- Opção de login com Google
+- Link para criação de nova conta
 
-To learn more about developing your project with Expo, look at the following resources:
+O layout foi organizado de forma centralizada e simples, buscando manter uma navegação intuitiva e visual limpo.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+# Requisitos Utilizados
 
-Join our community of developers creating universal apps.
+## Tecnologias
+- React Native
+- Expo
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Componentes do React Native utilizados
+
+- `View`
+- `Text`
+- `Image`
+- `Switch`
+- `TouchableOpacity`
+- `StyleSheet`
+
+## Componentes personalizados
+
+Durante o desenvolvimento também foram criados componentes reutilizáveis:
+
+- **CustomInput**  
+  Utilizado para os campos de entrada de dados (RM e Senha).
+
+- **CustomButton**  
+  Utilizado para padronizar os botões da aplicação.
+
+A utilização desses componentes ajuda na organização do código e facilita possíveis reutilizações em outras telas.
+
+---
+
+# Estrutura da Tela
+
+A tela foi construída seguindo a seguinte organização:
+
+1. Logo do aplicativo
+2. Título da página (Login)
+3. Subtítulo de boas-vindas
+4. Campo de RM
+5. Campo de senha
+6. Opção de manter conectado
+7. Botão principal de login
+8. Separador para login alternativo
+9. Botão de login com Google
+10. Link para criação de conta
+
+---
+
+# Print da Tela Desenvolvida
+
+<img width="400" height="656" alt="telaDoApp" src="https://github.com/user-attachments/assets/e623fecf-b04d-468d-9a85-2dbf8a7435e8" />
+
+
+
+
